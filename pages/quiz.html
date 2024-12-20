@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="../css/stylesheet.css">
+    <script type="text/javascript" src="../js/javaScript.js"></script>
+</head>
+
+<body>
+    <header style="background-image: url(../img/bg.png);">
+        <div class="nav">
+            <a href="../index.html" style="font-family: nasa;">Amine Bouzid</a>
+            <a href="education.html">Éducation</a>
+            <a href="experience.html">Expérience</a>
+            <a href="clubs.html">Clubs</a>
+            <a href="contact.html">Contact</a>
+            <a href="quiz.html" style="font-family: nasa;">Quiz</a>
+            <a href="temoignage.html">Témoignage IIT</a>
+        </div>
+    </header>
+    <main>
+        <article>
+            <form name="form">
+                <br>
+                <strong>Question 1 : Que signifie HTML ?</strong><br><br>
+                <input type="radio" name="quiz1" value="0">Hyper Transfer Markup Language<br>
+                <input type="radio" name="quiz1" value="0">HighText Machine Language <br>
+                <input type="radio" name="quiz1" value="1">HyperText Markup Language <br>
+                <input type="radio" name="quiz1" value="0">HyperText Machine Language
+                <br><br>
+                <hr><br>
+                <strong>Question 2 : Quel langage de programmation est connu pour sa polyvalence et son utilisation dans le développement web, le scripting côté serveur et l'automatisation ?</strong><br><br>
+                <input type="radio" name="quiz2" value="0">Java<br>
+                <input type="radio" name="quiz2" value="1">Python <br>
+                <input type="radio" name="quiz2" value="0">C++ <br>
+                <input type="radio" name="quiz2" value="0">Ruby
+                <br><br>
+                <hr><br>
+                <strong>Question 3 : Quel est le rôle de CSS dans le développement web ?</strong><br><br>
+                <input type="radio" name="quiz3" value="0">Scripting côté serveur<br>
+                <input type="radio" name="quiz3" value="1">Stylisation et mise en forme des pages web <br>
+                <input type="radio" name="quiz3" value="0">Algorithmes d'apprentissage automatique <br>
+                <input type="radio" name="quiz3" value="0">Gestion de bases de données 
+                <br><br>
+                <hr><br>
+                <strong>Question 4 : Quel symbole est utilisé pour indiquer les commentaires dans la plupart des langages de programmation ?</strong><br><br>
+                <input type="radio" name="quiz4" value="1">//<br>
+                <input type="radio" name="quiz4" value="0">## <br>
+                <input type="radio" name="quiz4" value="0">-- <br>
+                <input type="radio" name="quiz4" value="0">%
+                <br><br>
+                <hr><br>
+                <strong>Question 5 : Que signifie l'acronyme IDE dans le contexte de la programmation ?</strong><br><br>
+                <input type="radio" name="quiz5" value="1">Environnement de Développement Intégré<br>
+                <input type="radio" name="quiz5" value="0">Environnement de Conception Intelligente <br>
+                <input type="radio" name="quiz5" value="0">Éditeur de Documents Interactifs <br>
+                <input type="radio" name="quiz5" value="0">Amélioration de la Conception de l'Interface
+                <br><br>
+                <hr><br>
+                <strong>Question 6 : En programmation, qu'est-ce qu'une "variable" ?</strong><br><br>
+                <input type="radio" name="quiz6" value="0">Une valeur constante<br>
+                <input type="radio" name="quiz6" value="0">Un mot-clé réservé <br>
+                <input type="radio" name="quiz6" value="1">Un emplacement de stockage nommé pour les données <br>
+                <input type="radio" name="quiz6" value="0">Un type de boucle
+                <br><br>
+                <hr><br>
+                <strong>Question 7 : Lequel des types de données suivants est utilisé pour stocker des nombres entiers dans de nombreux langages de programmation ?</strong><br><br>
+                <input type="radio" name="quiz7" value="0">Float<br>
+                <input type="radio" name="quiz7" value="0">Char <br>
+                <input type="radio" name="quiz7" value="0">String <br>
+                <input type="radio" name="quiz7" value="1">Entier
+                <br><br>
+                <hr><br>
+                <strong>Question 8 : Que signifie l'acronyme "API" ?</strong><br><br>
+                <input type="radio" name="quiz8" value="0">Interface de Programmation Avancée<br>
+                <input type="radio" name="quiz8" value="1">Interface de Programmation d'Application<br>
+                <input type="radio" name="quiz8" value="0">Interface de Traitement Automatisé<br>
+                <input type="radio" name="quiz8" value="0">Intégration de Protocole Algorithmique
+                <br><br>
+                <hr><br>
+                <strong>Question 9 : Lequel des suivants n'est pas un paradigme de programmation ?</strong><br><br>
+                <input type="radio" name="quiz9" value="0">Programmation Orientée Objet (POO)<br>
+                <input type="radio" name="quiz9" value="0">Programmation Fonctionnelle (PF) <br>
+                <input type="radio" name="quiz9" value="1">Programmation de Balises (PB) <br>
+                <input type="radio" name="quiz9" value="0">Programmation Procédurale (PP)
+                <br><br>
+                <hr><br>
+                <strong>Question 10 : Que signifie l'acronyme URL dans le développement web ?</strong><br><br>
+                <input type="radio" name="quiz10" value="1">Localisateur Uniforme de Ressources<br>
+                <input type="radio" name="quiz10" value="0">Langage de Rendu Universel<br>
+                <input type="radio" name="quiz10" value="0">Lien de Réponse Unifiée <br>
+                <input type="radio" name="quiz10" value="0">Registre des Utilisateurs
+                <br>
+                <input type="submit" class="button" onclick="verif()">
+                <br><br>
+            </form>
+        </article>
+    </main>
+    <footer style="text-align: center;">
+        <p><span style="font-weight: bold;">Contact:</span> +216 25 458 868</p>
+        <p><a href="mailto: aminebouzid38@gmail.com"><span style="font-weight: bold;">Mail:</span>
+                aminebouzid38@gmail.com</a></p>
+        <p><span style="font-weight: bold;">Adresse:</span> Tunisie - Sfax - Cité Jardins</p>
+    </footer>
+</body>
+
+</html>
